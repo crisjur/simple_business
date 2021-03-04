@@ -283,7 +283,7 @@ function Home() {
               <h4 class="projects__info h4" data-aos="animation-scale-y">Bento Vol. 3 </h4>
               <div class="projects__preview">
                 <div class="projects__img"><img class="projects__pic js-parallax" data-scale="1.2" data-orientation="down" src="img/projects-pic-4.png" alt="" /></div><a class="projects__arrow arrow" href="case.html">
-                  <div class="arrow__line"></div>
+                  <div class="arrow__line">➜</div>
                 </a>
               </div>
               <div class="projects__text" data-aos="animation-scale-y" data-aos-offset="200">Agency is a full-service ______, busy designing and building _________ digital products, brands, and ___________. </div><a class="projects__arrow arrow" data-aos="animation-scale-y" data-aos-delay="400" href="case.html">
@@ -340,33 +340,33 @@ function Home() {
               <div class="stage__logo"><img class="stage__pic" src="img/logo-sm.png" alt="" /></div>
             </div>
             <h2 class="jobs__title title title_big" data-aos="animation-scale-y" data-aos-offset="200">Jobs </h2>
-            <div class="jobs__info" data-aos="animation-scale-y" data-aos-offset="300">Agency is a full-service ______, busy designing and building _________ digital products, brands, and ___________. </div><a class="jobs__scroll js-scroll" data-aos="animation-scale-y" href="#">
+            <div class="jobs__info" data-aos="animation-scale-y" data-aos-offset="300">Agency is a full-service ______, busy designing and building _________ digital products, brands, and ___________. </div><a class="jobs__scroll js-scroll" data-aos="animation-scale-y" href="/">
               <div class="jobs__icon">
                 <div class="jobs__arrows"><img class="jobs__pic" src="img/arrow-right.svg" alt="" /><img class="jobs__pic" src="img/arrow-right.svg" alt="" /></div>
               </div>
               <div class="jobs__text">Available  <br />jobs </div>
             </a>
           </div>
-          <div class="jobs__list"><a class="jobs__item" href="#" data-aos="animation-scale-y">
+          <div class="jobs__list"><a class="jobs__item" href="/" data-aos="animation-scale-y">
             <div class="jobs__inner">
               <h5 class="jobs__vacancy h5">Graphic Designer <div class="jobs__counter">2 </div>
               </h5>
               <div class="jobs__text">2 years experience </div>
               <div class="jobs__preview"><img class="jobs__pic" src="img/jobs-pic-1.png" alt="" /></div>
             </div>
-          </a><a class="jobs__item" href="#" data-aos="animation-scale-y">
+          </a><a class="jobs__item" href="/" data-aos="animation-scale-y">
               <div class="jobs__inner">
                 <h5 class="jobs__vacancy h5">Visual Designer </h5>
                 <div class="jobs__text">2 years experience </div>
                 <div class="jobs__preview"><img class="jobs__pic" src="img/jobs-pic-1.png" alt="" /></div>
               </div>
-            </a><a class="jobs__item" href="#" data-aos="animation-scale-y">
+            </a><a class="jobs__item" href="/" data-aos="animation-scale-y">
               <div class="jobs__inner">
                 <h5 class="jobs__vacancy h5">Art Director </h5>
                 <div class="jobs__text">2 years experience </div>
                 <div class="jobs__preview"><img class="jobs__pic" src="img/jobs-pic-1.png" alt="" /></div>
               </div>
-            </a><a class="jobs__item" href="#" data-aos="animation-scale-y">
+            </a><a class="jobs__item" href="/" data-aos="animation-scale-y">
               <div class="jobs__inner">
                 <h5 class="jobs__vacancy h5">Web Designer <div class="jobs__counter">2 </div>
                 </h5>
@@ -397,7 +397,7 @@ function Home() {
                 <div class="about__box">
                   <div class="about__icon" data-aos="animation-scale-y"><img class="about__pic" src="img/talk.png" alt="" /></div>
                   <div class="about__line" data-aos="animation-scale-y" data-aos-offset="200">
-                    <div class="about__text h5">Invest in your designs _____! </div><a class="about__arrow arrow" href="#">
+                    <div class="about__text h5">Invest in your designs _____! </div><a class="about__arrow arrow" href="/">
                       <div class="arrow__line"></div>
                     </a>
                   </div>
@@ -419,7 +419,7 @@ function Home() {
             <div class="footer__copyright">© 2020, UI8 LLC. </div>
             <div class="footer__social">
               <div class="footer__text">Follow us </div>
-              <div class="footer__list"><a class="footer__link" href="#"></a></div>
+              <div class="footer__list"><a class="footer__link" href="/">.</a></div>
             </div>
           </div>
         </div>
