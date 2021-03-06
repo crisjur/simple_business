@@ -1,3 +1,5 @@
+import { CONTENTS } from "../configs/content";
+
 function Wrapper() {
   return (
     <div class="wrapper">
@@ -14,64 +16,18 @@ function Wrapper() {
         <div class="work__center center">
           <div class="work__head head">
             <div class="head__box">
-              <div class="head__stage stage"><span class="stage__line" data-aos="animation-translate-right"><span class="stage__number">02. </span> What We Do </span>
+              <div class="head__stage stage"><span class="stage__line" data-aos="animation-translate-right"><span class="stage__number">02. </span>{CONTENTS.WRAPPER_TITLE}</span>
                 <div class="stage__logo"><img class="stage__pic" src="img/logo-sm.png" alt="" /></div>
               </div>
-              <h2 class="head__title h2" data-aos="animation-scale-y" data-aos-delay="200">We Make Designs that ____ and Inpire. </h2>
+              <h2 class="head__title h2" data-aos="animation-scale-y" data-aos-delay="200">{CONTENTS.WRAPPER_DESCRIPTION}</h2>
             </div>
             <div class="head__arrows arrows" data-aos="animation-scale-y" data-aos-delay="400"><button class="arrows__prev js-prev"></button></div>
           </div>
           <div class="work__inner" data-aos="animation-translate-up">
             <div class="work__container">
               <div class="work__slider js-work-slider">
-                <div class="work__slide">
-                  <div class="work__item">
-                    <div class="work__preview"><img class="work__pic" src="img/work-pic-1.png" alt="" /></div>
-                    <h6 class="work__category h6">Strategy </h6>
-                  </div>
-                </div>
-                <div class="work__slide">
-                  <div class="work__item">
-                    <div class="work__preview"><img class="work__pic" src="img/work-pic-2.png" alt="" /></div>
-                    <h6 class="work__category h6">Branding </h6>
-                  </div>
-                </div>
-                <div class="work__slide">
-                  <div class="work__item">
-                    <div class="work__preview"><img class="work__pic" src="img/work-pic-3.png" alt="" /></div>
-                    <h6 class="work__category h6">Interactive </h6>
-                  </div>
-                </div>
-                <div class="work__slide">
-                  <div class="work__item">
-                    <div class="work__preview"><img class="work__pic" src="img/work-pic-4.png" alt="" /></div>
-                    <h6 class="work__category h6">Communicate </h6>
-                  </div>
-                </div>
-                <div class="work__slide">
-                  <div class="work__item">
-                    <div class="work__preview"><img class="work__pic" src="img/work-pic-5.png" alt="" /></div>
-                    <h6 class="work__category h6">Copywriting </h6>
-                  </div>
-                </div>
-                <div class="work__slide">
-                  <div class="work__item">
-                    <div class="work__preview"><img class="work__pic" src="img/work-pic-6.png" alt="" /></div>
-                    <h6 class="work__category h6">Web Design </h6>
-                  </div>
-                </div>
-                <div class="work__slide">
-                  <div class="work__item">
-                    <div class="work__preview"><img class="work__pic" src="img/work-pic-7.png" alt="" /></div>
-                    <h6 class="work__category h6">Mobile App </h6>
-                  </div>
-                </div>
-                <div class="work__slide">
-                  <div class="work__item">
-                    <div class="work__preview"><img class="work__pic" src="img/work-pic-8.png" alt="" /></div>
-                    <h6 class="work__category h6">Motion Design </h6>
-                  </div>
-                </div>
+                {CONTENTS.WRAPPER_CONTENTS.map((item) => 
+                <WrapperItem key={item.id} item={item}/>)}
               </div>
             </div>
           </div>
@@ -83,21 +39,21 @@ function Wrapper() {
             <div class="achievement__slider js-achievement-slider">
               <div class="achievement__slide">
                 <div class="achievement__group">
-                  <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-1.png" alt="" /></div>
+                  <div class="achievement__preview"><img class="achievement__pic" src="BioIQ-App-01.jpg" alt="" /></div>
                   <div class="achievement__preview"><img class="achievement__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/achievement-pic-2.svg" alt="" /></div>
                   <div class="achievement__preview"><img class="achievement__pic js-parallax" data-scale="1.4" data-orientation="down" src="img/achievement-pic-3.png" alt="" /></div>
                 </div>
               </div>
               <div class="achievement__slide">
                 <div class="achievement__group">
-                  <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-1.png" alt="" /></div>
+                  <div class="achievement__preview"><img class="achievement__pic" src="BioIQ-App-02.jpg" alt="" /></div>
                   <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-2.svg" alt="" /></div>
                   <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-3.png" alt="" /></div>
                 </div>
               </div>
               <div class="achievement__slide">
                 <div class="achievement__group">
-                  <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-1.png" alt="" /></div>
+                  <div class="achievement__preview"><img class="achievement__pic" src="BioIQ-App-03.jpg" alt="" /></div>
                   <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-2.svg" alt="" /></div>
                   <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-3.png" alt="" /></div>
                 </div>
@@ -108,9 +64,10 @@ function Wrapper() {
             <div class="achievement__stage stage"><span class="stage__line" data-aos="animation-translate-right"><span class="stage__number">03. </span> Achievement </span>
               <div class="stage__logo"><img class="stage__pic" src="img/logo-sm.png" alt="" /></div>
             </div>
-            <h5 class="achievement__title h5" data-aos="animation-scale-y" data-aos-delay="200">A design team building _ curated marketplace for UI _________. </h5>
-            <div class="achievement__number number" data-aos=""><span>6 </span><span>8 </span></div>
-            <div class="achievement__info h6" data-aos="animation-scale-y" data-aos-delay="600"><span>😎 </span>Successful Projects </div>
+            {CONTENTS.WRAPPER_INTRODUCE}
+             <a href='https://www.bioiq.com/press/bioiq-launches-new-telehealth-solution-for-diagnostic-testing-and-population-health/'> Press release</a>
+            <div class="achievement__number number" data-aos=""><span>1 </span><span>8 </span></div>
+            <div class="achievement__info h6" data-aos="animation-scale-y" data-aos-delay="600"><span>😎 </span>Successful Release </div>
           </div>
         </div>
       </div>
@@ -120,3 +77,15 @@ function Wrapper() {
 }
 
 export default Wrapper;
+
+function WrapperItem(props) {
+  const { title, id } = props.item;
+  return (
+    <div class="work__slide">
+      <div class="work__item">
+        <div class="work__preview"><img class="work__pic" src={`img/work-pic-${id}.png`} alt="" /></div>
+        <h6 class="work__category h6">{title}</h6>
+      </div>
+    </div>
+  )
+}

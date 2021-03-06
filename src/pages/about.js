@@ -7,18 +7,18 @@ function About() {
               <div class="about__icon" data-aos="animation-scale-y"><img class="about__pic" src="img/talk.png" alt="" /></div>
               <div class="about__logo" data-aos="animation-scale-y"><img class="about__pic" src="img/logo-sm-pink.png" alt="" /></div>
               <div class="about__hello" data-aos="animation-scale-y" data-aos-offset="200"><span>👋 </span> Say hello </div>
-              <h5 class="about__info h5" data-aos="animation-scale-y" data-aos-offset="400">A design team building _ curated marketplace for UI _________. </h5>
+              <h5 class="about__info h5" data-aos="animation-scale-y" data-aos-offset="400">BioIQ is modernizing the diagnostic testing industry through a national network </h5>
             </div>
             <div class="about__row">
               <div class="about__col">
-                <h2 class="about__title h2" data-aos="animation-scale-y">Let’s talk about your ____ project </h2>
+                <h2 class="about__title h2" data-aos="animation-scale-y">Let’s talk about your solution </h2>
                 <div class="about__btn"><button class="btn btn_white">Contact Us </button></div>
               </div>
               <div class="about__col">
                 <div class="about__box">
                   <div class="about__icon" data-aos="animation-scale-y"><img class="about__pic" src="img/talk.png" alt="" /></div>
                   <div class="about__line" data-aos="animation-scale-y" data-aos-offset="200">
-                    <div class="about__text h5">Invest in your designs _____! </div><a class="about__arrow arrow" href="/">
+                    <div class="about__text h5">Invest in your idea! </div><a class="about__arrow arrow" href="/">
                       <div class="arrow__line"></div>
                     </a>
                   </div>

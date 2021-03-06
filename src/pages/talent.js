@@ -12,7 +12,7 @@ function Talent() {
           </div>
           <div class="talent__wrap">
             <div class="talent__stage stage" data-aos="animation-translate-right"><span class="stage__number">05. </span> Call to action </div>
-            <h2 class="talent__title h2" data-aos="animation-scale-y" data-aos-offset="200">We Are Looking for ________ Designers </h2>
+            <h2 class="talent__title h2" data-aos="animation-scale-y" data-aos-offset="200">We Are Looking for ________ Solutions </h2>
             <div class="talent__btn" data-aos="animation-scale-y" data-aos-offset="400"><button class="btn btn_white">Apply Now </button></div>
           </div>
           <div class="talent__figure"><img class="talent__pic js-parallax" data-scale="1.3" data-orientation="right" src="img/talent-figure.svg" alt="" /></div>

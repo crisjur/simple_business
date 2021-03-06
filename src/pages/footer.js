@@ -13,8 +13,8 @@ function Footer() {
         <div class="footer__bottom">
           <div class="footer__copyright">{CONTENTS.FOOTER_DESCRIPTION}</div>
           <div class="footer__social">
-            <div class="footer__text">Follow us </div>
-            <div class="footer__list"><a class="footer__link" href="/">.</a></div>
+            <div class="footer__text">{CONTENTS.FOOTER_CONTACT_EMAIL}</div>
+            <div class="footer__list"><a class="footer__link" href="/">{CONTENTS.FOOTER_CONTACT_EMAIL}</a></div>
           </div>
         </div>
       </div>
